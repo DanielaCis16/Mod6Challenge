@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(141, 86, 196);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.skills-group-item {
+  background-color: #c0a2f3;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.section-names {
+    background-color: rgb(153, 105, 199);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#text {
+    background-color: #c0a2f3;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* Example of a media query for responsiveness */
+@media (max-width: 600px) {
+    /* Add styles for smaller screens */
+}

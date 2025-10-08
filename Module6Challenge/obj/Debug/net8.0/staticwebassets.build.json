@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "i85FIYYVwo5uriqi6naMqpJcFS8fvyldVeu8XYdCXjI=",
+  "Source": "Module6Challenge",
+  "BasePath": "_content/Module6Challenge",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Module6Challenge/wwwroot",
+      "Source": "Module6Challenge",
+      "ContentRoot": "/workspaces/Mod6Challenge/Module6Challenge/wwwroot/",
+      "BasePath": "_content/Module6Challenge",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/workspaces/Mod6Challenge/Module6Challenge/wwwroot/index.html",
+      "SourceId": "Module6Challenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/Mod6Challenge/Module6Challenge/wwwroot/",
+      "BasePath": "_content/Module6Challenge",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/workspaces/Mod6Challenge/Module6Challenge/wwwroot/styles.css",
+      "SourceId": "Module6Challenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/Mod6Challenge/Module6Challenge/wwwroot/",
+      "BasePath": "_content/Module6Challenge",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/styles.css"
+    }
+  ]
+}
