@@ -17,10 +17,11 @@ h1 {
 }
 
 .skills-group-item {
-  background-color: #c0a2f3;
+  background-color: #d4bbff;
   padding: 10px 15px;
   border-radius: 20px;
   font-weight: bold;
+  border-color: black;
 }
 
 .section-names {
@@ -30,13 +31,56 @@ h1 {
 }
 
 #text {
-    background-color: #c0a2f3;
+    background-color: #d3b9ff;
     padding: 10px;
     border-radius: 10px;
 }
 
+td {
+    border-width: 20px;
+    border-color: black;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+footer nav ul li a {
+    color: #e4c9f7;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #7e1abc;
+}
+
+footer p {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
 
 /* Example of a media query for responsiveness */
-@media (max-width: 600px) {
-    /* Add styles for smaller screens */
+@media (max-width: 600px) { 
+    h1 { 
+        font-size: 1.5em; padding: 10px; 
+    } 
+    .section-names { 
+        font-size: 1.2em; 
+    } 
 }
